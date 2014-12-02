@@ -245,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erwanncordon/behatMain.git",
-                "reference": "b4148568b2cb9e5cd35eb8702fca15d1192d8c65"
+                "reference": "4b195b737575bd9f1dcec9a2d5564f5b33e06637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erwanncordon/behatMain/zipball/b4148568b2cb9e5cd35eb8702fca15d1192d8c65",
-                "reference": "b4148568b2cb9e5cd35eb8702fca15d1192d8c65",
+                "url": "https://api.github.com/repos/erwanncordon/behatMain/zipball/4b195b737575bd9f1dcec9a2d5564f5b33e06637",
+                "reference": "4b195b737575bd9f1dcec9a2d5564f5b33e06637",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
                 "source": "https://github.com/erwanncordon/behatMain/tree/master",
                 "issues": "https://github.com/erwanncordon/behatMain/issues"
             },
-            "time": "2014-12-02 10:21:27"
+            "time": "2014-12-02 11:28:06"
         },
         {
             "name": "phpunit/php-code-coverage",
