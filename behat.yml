@@ -1,5 +1,5 @@
 # behat.yml
-
+#default is always ran, so if you only want to run the behatMain tests, eihter supply the feature file path in the cli command or do it from the main repo.
 default:
     autoload:
         '': %paths.base%/features/bootstrap
@@ -9,10 +9,8 @@ default:
                 - 'features'
 fullRun:
     suites:
-        current:
-            paths:
-                - 'features'
         parent:
             paths:
                 - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
+
 
