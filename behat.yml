@@ -4,11 +4,15 @@ default:
     autoload:
         '': %paths.base%/features/bootstrap
     suites:
-        all:
+        default:
             paths:
-                  - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
-                  - 'features'
+                - 'features'
+fullRun:
+    suites:
+        current:
+            paths:
+                - 'features'
         parent:
             paths:
-                  - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
+                - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
 
