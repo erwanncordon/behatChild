@@ -1,0 +1,13 @@
+{
+	"name": "erwanncordon/behatChild",
+	"description": "Behat child",
+    "repositories": [{
+            "type": "vcs",
+            "url":  "https://github.com/erwanncordon/behatMain.git"
+    }],
+	"require": {
+        "behat/behat": "~3.0.6",
+    	"erwanncordon/behatMain": "dev-master",
+        "phpunit/phpunit": "4.3.*"
+	}
+}

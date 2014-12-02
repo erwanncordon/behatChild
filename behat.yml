@@ -1,0 +1,14 @@
+# behat.yml
+
+default:
+    autoload:
+        '': %paths.base%/features/bootstrap
+    suites:
+        all:
+            paths:
+                  - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
+                  - 'features'
+        parent:
+            paths:
+                  - 'vendor/erwanncordon/behatMain/BehatMain/src/features'
+
